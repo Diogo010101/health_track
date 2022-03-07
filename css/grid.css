@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.container-fluid{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+/**Inicio NavBar**/
+.navbar-toggler-icon{
+    color:blue;
+}
+
+
+.image_premium_home{
+     height: 40px;
+    width: 40px;
+    object-fit: cover;
+}
+
+.image_treino{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+}
+
+.btn-primary{
+    border-radius: 20px;
+}
+
+.listas_nav>ul>li{
+    list-style: none;
+
+
+}
+i.recarregar{
+    font-size: 30px;
+}
+
+/**Fim NavBar**/
+
+
+/**Inicio Cards**/
+.card-body1-fluid{
+    font-style: bold;
+    background-color: rgb(246, 116, 116);
+    box-shadow: 5px 5px 10px gray;
+}
+img.card-img-top1{
+    height: 200px;
+    object-fit: cover;
+}
+.card-body1-fluid a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.card-body2-fluid {
+    font-style: bold;
+    background-color: rgb(118, 189, 255);
+    box-shadow: 5px 5px 10px gray;
+}
+img.card-img-top2{
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body2-fluid a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.card-body3-fluid {
+    font-style: bold;
+    background-color: rgb(50, 123, 62);
+    box-shadow: 5px 5px 10px gray;
+}
+.registro_peso_link{
+    text-decoration: none;
+    color: inherit;
+}
+
+img.card-img-top3{
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body3-fluid a{
+    text-decoration: none;
+    color: inherit;
+}
+/**Fim Cards**/
+
+
+/**Inicio Login**/
+.dropdown-menu{
+    background-color: blue;
+}
+.login_text{
+    text-align: center;
+}
+
+.login_text img{
+    height: 200px;
+    object-fit: cover; 
+    opacity: 20%;  
+}
+
+/**Fim Login**/
+
+
+/**Index PLANO PREMIUM IMG**/
+.img_plano_premium img{
+    height: 300px;
+    object-fit:cover;
+}
+/** FIM Index PLANO PREMIUM IMG**/

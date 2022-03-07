@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>HEALTH TRACK</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BOOTSTRAP">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <header>
+        <header>
+            <nav class="flex-container nav_perfil ms-1">
+                <a href="index.html">
+                    <i class="bi bi-house"></i>
+                    </div>
+                </a>
+        
+                <div class="me-1 mt-1">
+                    <a href="perfil.html"><img src="image/perfil.png" alt="Perfil" width="45" height="45"
+                            class="image_perfil_home img_fluid"></a>
+                </div>
+            </nav>
+        
+        </header>
+        <div>
+            <figure class="flex-container logo_coracao_pagamento">
+                <img src="image/health.png" alt="Logo Health Track" class="img-fluid">
+            </figure>
+        </div>
+    </header>
+
+    <div class="flex-container bandeira_cartao">
+        <div class="form-horizontal">
+            <h1 class="lex-item">Selecione a Bandeira do seu cartão</h1>
+        </div>
+    </div>
+<!--Pagamento formulário-->
+
+    <div class="flex-container bandeira_cartao">
+        <label for="bandeira"></label>
+        
+        <input type="radio" name="bandeira" value="visa" class="flex-item bandeira_visa " id="bandeira_cartao_visa"> <img src="image/icone_visa.jpg" alt="Visa" width="60" height="50" class="me-5">
+
+        <input type="radio"  name="bandeira" value="master" checked class="flex-item bandeira_master" id="bandeira_cartao_master">
+        <img src="image/icone_master_card.png" alt="Visa" width="80" height="50">
+    </div>
+
+
+        <form class="container col-md-12 mt-10 container_pag">
+            <div class="row mb-3 col-md-12">
+                <label for="name" class="col-sm-10 col-form-label">Nome no Cartão</label>
+                <div class="col-sm-10">
+                    <input type="name" class="form-control" id="nome_cartao_pag">
+                </div>
+            </div>
+            <div class="row mb-3 col-md-12">
+            <div class="row mb-3 ">
+                <label for="inputPassword3" class="col-sm-10 col-form-label">Número do Cartão</label>
+                <div class="col-sm-10">
+                    <input type="number" class="form-control" id="inputPassword3"  min="1111111111111111" max="9999999999999999">
+                </div>
+            </div>
+
+            <div class="row mb-3 col-4 col-md-4">
+                <label for="number" class=" col-2 col-sm-2 col-md-4 col-form-label">Mês</label>
+                <div class="col-sm-10">
+                    <input type="number" class="form-control" id="mes-pag" max="12">
+                </div>
+            </div>
+
+
+            <div class="row mb-3 col-4 col-md-4">
+                <label for="number" class="col-2 col-sm-2 col-md-4 col-form-label">Ano</label>
+                <div class="col-sm-10">
+                    <input type="number" class="form-control" id="ano_pag" max="9999">
+                </div>
+            </div>
+
+            <div class="row mb-3 col-4 col-md-4">
+                <label for="number" class="col-2 col-sm-2 col-md-4 col-form-label">Código</label>
+                <div class="col-sm-10">
+                    <input type="number" class="form-control" id="codigo_cartao" max="999">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-sm-10 offset-sm-0">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck1">
+                        <label class="form-check-label" for="gridCheck1">
+                            Cobrança Recorrente?
+                        </label>
+                    </div>
+                </div>
+            </div>
+            
+            <div>
+            <fieldset disabled>
+                <legend>Preço Mensal</legend>
+                <div class="mb-3 col-3 col-md-1">
+                    <label for="disabledTextInput" class="form-label"></label>
+                    <input type="text" id="disabledTextInput" class="form-control" placeholder="4,99 R$" >
+                </div>
+            </div>
+            <div class="row col-md-3 offset-md-0">
+                <button type="submit" class="btn btn-primary assinar_botao">ASSINAR</button>
+            </div>
+        </form>
+
+            
+
+                
+     
+    
+    
+
+<!-- fim Pagamento formulário-->
+
+    <script src=" js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/stylus.css">
+
+
+</body>
+</html>
+
+
+

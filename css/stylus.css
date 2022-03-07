@@ -1,0 +1,530 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**Header**/
+li{
+    list-style: none;
+    font-style: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+
+}
+
+/**Fim Header**/
+
+
+
+
+/**Rodapé**/
+.container_footer_icones{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container_footer_icones a{
+    color: black;
+}
+/**Fim Rodapé**/
+
+.flex-container{
+    display: inline-flex;
+}
+
+.menu_nav ul{
+    position: relative;
+    right: 45px;
+}
+
+
+/**Login**/
+.btn_login{
+    border: 1px solid black;
+    background-color: rgb(246, 116, 116);
+    border-radius: 5px;
+    padding: 8px;
+
+
+}
+.btn_login a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.flex-container.logo_coracao{
+    display: flex;
+    justify-content: center;
+
+}
+.flex-container.logo_coracao img{
+    opacity: 0.25;
+    width: 20em;
+    position: relative;
+    top: 90px;
+    z-index: 0;
+
+}
+
+.flex-container.botoes_login{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    justify-content: center;
+    color: rgb(246, 116, 116);
+    
+
+}
+
+.flex-container.botoes_login button{
+    background-color: rgb(246, 116, 116);
+    border: none;
+    font-weight: bolder;
+    z-index: 1;
+
+}
+
+.botao_login_entrar button{
+    padding: 20px 60px;
+    border: none;
+    font-weight: bolder;
+    font-size: 2em;
+    text-shadow: 2px 2px 2px black;
+}
+
+.botao_login_cadastro button{
+    padding: 15px 40px;
+    border: none;
+    font-weight: bolder;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px black;
+
+}
+
+.flex-container.container_redes{
+    justify-content: center;
+    display: flex;
+
+}
+
+.container_redes a{
+    text-decoration: none;
+    color: black;
+}
+.corpo_login{
+    background-color: rgba(250, 94, 94, 0.596);
+    
+}
+
+/**Atividades Físicas**/
+
+.icon_atividade{
+    font-size: 300px;
+}
+.progress{
+    height: 50px;
+    border-radius: 5px;
+    
+    font-size: 14px;
+    font-weight: bolder;
+    background-color: rgba(247, 247, 247, 0.5);
+    border: 1px solid black;
+}
+
+.progress-bar{
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: rgba(11, 146, 45, 0.9);
+}
+
+.box-corrida{
+    border-radius: 5px;
+    font-size: 25px;
+    background-color: rgb(246, 116, 116);
+    border-top: 2px solid rgba(0, 0, 0, 0.5)
+    
+}
+i{
+    font-size: 30px;
+}
+
+.box-corrida>span{
+    font-weight: bolder;
+
+}
+
+/**FIM Atividades Físicas**/
+
+
+
+/**Registro de Peso**/
+.peso_atual_conteudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 10px;
+    margin-left: 30px;
+    flex-grow: 8;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.peso_atual_conteudo span{
+    padding: 2px 7px;
+    background-color: rgb(118, 189, 255);
+    border-radius: 6px;
+    margin-bottom: 10px;
+    font-size: 2em;
+    font-weight: bold;
+    color:white;
+}
+
+.peso_atual_conteudo h2{
+    align-items: flex-end;
+    font-size: 15pt;
+    opacity: 0.5;
+}
+
+
+
+.peso_anterior_conteudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 10px;
+    margin-left: 30px;
+    flex-grow: 8;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    
+}
+
+.peso_anterior_conteudo span{
+    padding: 2px 7px;
+    background-color: rgb(118, 189, 255);
+    border-radius: 6px;
+    margin-bottom: 10px;
+    font-size: 2em;
+    font-weight: bold;
+    color:white;
+}
+
+.peso_anterior_conteudo h2{
+    font-size: 15pt;
+    align-items: flex-end;
+    opacity: 0.5;
+}
+
+.peso_informacoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 10px;
+    margin-left: 30px;
+    flex-grow: 8;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    font-size: 15pt;
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+
+.peso_informacoes h1{
+   
+    font-size: 15pt;
+
+}
+
+.atualizar_peso_btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    border: none;
+
+}
+.btn_peso{
+    background-color: rgb(118, 189, 255);
+    font-weight: bolder;
+    border: 1px solid black;
+    text-shadow: 1px 2px 4px black;
+    border: none;
+
+}
+/**Fim Registro de Peso**/
+
+
+/**Alimentação**/
+.container_calorias{
+    display: flex;
+    flex-direction:  column;
+    justify-content: space-between;
+    
+
+   
+}
+.container_calorias2{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+/**Fim Alimentação**/
+.calorias{
+    margin-bottom: 5px;
+    padding: 20px 20px;
+    background-color: rgb(50, 123, 62);;
+    border-radius: 1px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    flex-grow: 2;
+    
+}
+
+.dieta{
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    background-color: rgb(50, 123, 62);;
+    border-radius: 1px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    flex-direction: left;
+}
+
+.receitas{
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    background-color: rgb(50, 123, 62);;
+    border-radius: 1px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    flex-direction: left;
+}
+
+.metas{
+    display: flex;
+    justify-content: center;
+    padding: 10px 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(50, 123, 62);
+}
+.metas h1{
+    font-size: 30pt; 
+}
+
+.container_metas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding: 10px 10px 10px 0;
+    align-items: baseline;
+    border-bottom: 3px solid black;
+}
+
+.d1{
+    
+    margin-right: 15px;
+    font-size: 11pt;
+    padding: 5px 0px;
+    font-weight: bold;
+    flex-grow: 1;
+
+}
+
+.d2{
+    background-color:rgb(102, 170, 113);
+    padding: 5px 15px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-align: justify;
+    margin-right: 15px;
+    flex-grow: 1;
+}
+
+.d3{
+    background-color:rgb(102, 170, 113);
+    padding: 5px 40px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-align: justify;
+    flex-grow: 1;
+
+    
+}
+
+.footer_alimentos{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_alimentos h1{
+    font-size: 20pt;
+}
+
+
+.footer_alimentos_metas{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer_alimentos_metas h2{
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: rgb(50, 123, 62);
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    
+}
+
+.footer_alimentos_metas i{
+    font-size: 30pt;
+}
+
+.titulo_alimento{
+   margin-left: 60px;
+   
+   
+}
+/**Fim Alimentacao**/
+
+/**Carrocel index**/
+.carousel-caption h1{
+    text-shadow: 2px 2px 2px black;
+}
+
+.carousel-caption p{
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    opacity: none;
+}
+.carousel-caption i{
+    color: yellow;
+    text-shadow: 2px 2px 2px black;
+}
+/**Fim Carrocel index**/
+
+/**info_premium**/
+.info_premium{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+    
+}
+
+.info_premium h1{
+    font-weight: bold;
+    text-align: center;
+    font-size: 25pt;
+}
+
+.info_premium h2{
+    margin-top: 15pt;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25pt;
+}
+.info_premium h2 span{
+    color: rgb(246, 116, 116);
+}
+
+.info_premium h3{
+    align-self: flex-end;
+    margin-top: 10px;
+    padding: 20px 20px;
+    color: white;
+    background-color: rgb(246, 116, 116);
+    border-radius: 8px;
+    font-size: 30px;
+    text-align: center;
+    
+}
+/**Fim info_premium**/
+
+/**Pagamento**/
+.logo_coracao_pagamento{
+    display: flex;
+    justify-content: center;
+
+}
+.logo_coracao_pagamento img{
+    opacity: 0.25;
+    width: 20em;
+    position: relative;
+  
+
+}
+
+.bandeira_cartao{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.bandeira_cartao h1{
+    font-size: 15pt;
+}
+
+.form_pagamento{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.assinar_botao{
+    background-color: rgb(246, 116, 116);
+    border: none;
+}
+
+/**Pagamento**/
+
+/**PERFIL**/
+.nav_perfil{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.bi-house{
+    color: black;
+    font-size: 2em;
+}
+
+.perfil_form{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfil_form h1{
+    font-size: 15pt;
+    margin-bottom: 25px;
+}
+
+/**FIM PERFIL**/

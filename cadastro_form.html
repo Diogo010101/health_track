@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BOOTSTRAP">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>HEALTH TRACK</title>
+</head>
+<body>
+    <h1 class="login_text img-fluid"><img src="image/health.png" alt="Logo Health Track"></h1>
+
+    <form class="container ">
+        <row>
+            <div class="mb-3 col-12 col-md-5 offset-md-2">
+                <label for="name" class="form-label">Nome de usuário</label>
+                <input type="text" class="form-control"id="nome_usuario" minlength="5" maxlength="42">
+            </div>
+
+            <div class="mb-3 col-12 col-md-2 offset-md-2" >
+                <label for="number" class="form-label">Idade</label>
+                <input type="number" min="1" max="120" class="form-control" id="idade" >
+            </div>
+        </row>
+        <div class=" col-md-10 offset-md-2 mb-3 ">
+        <label for="interesses">Sexo: </label>
+        <input type="radio" name="interesses" value="Feminino"> Feminino
+        <input type="radio" name="interesses" value="Masculino" checked> Masculino
+        </div>
+
+        <div class="mb-3 col-md-5 offset-md-2">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text"></div>
+        </div>
+        <div class="mb-3 col-md-5 offset-md-2">
+            <label for="exampleInputPassword1" class="form-label">Senha</label>
+            <input type="password" class="form-control" minlength="6" maxlength="16" id="exampleInputPassword1">
+        </div>
+
+        
+
+        <div class="col-md-10 offset-md-2 mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Lembre-me</label>
+        </div>
+
+        
+        <div class="col-md-10 offset-md-2 mb-3">
+        <a class="btn_login text-light" href="index.html" class="col-12 col-md-12">Salvar</a>
+        </div>
+    </form>
+<link rel="stylesheet" href="css/grid.css">
+<script src=" js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="css/stylus.css">
+</body>
+</html>
+</html>
+
